@@ -29,7 +29,7 @@
 			</ul>
 		</nav>
 		<div class="usuario">
-			<h2>Bienvenido<?php echo $_SESSION['nombreusuario'];?></h2>
+			<h2>Bienvenido don <?php echo $_SESSION['nombreusuario'];?></h2>
 			<a href="salir.php">CErrar sESION</a>
 		</div>
 		
