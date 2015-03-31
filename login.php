@@ -24,7 +24,7 @@
 	<section class="contenedor-login">
 		<article class="registrate abajo-arriba">
 			<a href="#">REGISTRATE !!</a>
-			<p>Y accede a todos nuestros cursos on-line. Conviértete en un profesional de la web
+			<p>Y accede a todos nuestros cursos on-line. Conviértete en un profesional de la web. ES GRATIS
 			</p>
 		</article>
 		<article class="login arriba-abajo">
