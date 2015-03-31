@@ -28,8 +28,11 @@
 				<li><a href="">Contacto</a></li>
 			</ul>
 		</nav>
-		<?php echo $_SESSION['nombreusuario'];?>
-		<a href="salir.php">CErrar sESION</a>
+		<div class="usuario">
+			<h2>Bienvenido<?php echo $_SESSION['nombreusuario'];?></h2>
+			<a href="salir.php">CErrar sESION</a>
+		</div>
+		
 	</header>
 	<section class="portada">
 		<img src="img/portada.jpg">
