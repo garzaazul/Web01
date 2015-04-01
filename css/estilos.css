@@ -84,6 +84,13 @@ nav.menu ul li a:hover {
 	-mz-transition: all ease 1s;
 	-ms-transition: all ease 1s;
 }
+.usuario {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 section.portada img {
 	width: 100%;
 }
@@ -169,30 +176,37 @@ article.login {
 	border-radius: 10px;
 	padding: 20px;
 }
-article.login form h1 {
+form h1 {
 	display: block;
 	width: 100%;
 	font-size: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 }
-article.login form input {
+form input {
 	width: 100%;
 	border: 1px solid #999;
 	height: 45px;
 	padding: 10px;
-	margin: 2px auto;
+	margin: 5px auto;
 }
-article.login form input.enviar {
+form input.enviar {
 	background: blue;
 	color: #fff;
 	cursor: pointer;
 	margin-bottom: 20px;
 }
-article.login form input.enviar:hover {
+form input.enviar:hover {
 	background: #444;
 }
-
+section.conte-formu {
+	margin: 50px auto;
+	width: 60%;
+	padding: 50px;
+	border-radius: 20px;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
 
 /* etiqueta media query que establece que cuando el sitio se esta viendo desde un dispositivo que no excede de resolución de pantalla los 700px, adopta estas propiedas para las etiquetas mencionadas en ese bloque*/
 @media (max-width: 800px) {

@@ -14,6 +14,7 @@
 	<link rel="author" type="text/plain" href="humans.txt">
 	<link rel="sitemap" type="application/xml" href="sitemap.xml">
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
@@ -30,7 +31,7 @@
 		</nav>
 		<div class="usuario">
 			<h2>Bienvenido don <?php echo $_SESSION['nombreusuario'];?></h2>
-			<a href="salir.php">CErrar sESION</a>
+			<a href="salir.php">Cerrar Sesión</a>
 		</div>
 		
 	</header>

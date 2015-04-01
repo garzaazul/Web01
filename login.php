@@ -23,7 +23,7 @@
 <body>
 	<section class="contenedor-login">
 		<article class="registrate abajo-arriba">
-			<a href="#">REGISTRATE !!</a>
+			<a href="registrarse.php">REGISTRATE !!</a>
 			<p>Y accede a todos nuestros cursos on-line. Conviértete en un profesional de la web. ES GRATIS
 			</p>
 		</article>
@@ -44,7 +44,7 @@
 				<input type="password" required placeholder="Ingrese Password" name="password">
 				<input type="submit" value="Ingresar" class="enviar">
 			</form>
-			<span>¿Aún no te has registrado? Hazlo <a href="#">Acá</a></span>
+			<span>¿Aún no te has registrado? Hazlo <a href="registrarse.php">Acá</a></span>
 			<span>¿Olvidaste tu contraseña? <a href="#">Recupérala</a></span>
 		</article>
 	</section>
