@@ -87,7 +87,7 @@ nav.menu ul li a:hover {
 .usuario {
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
-	display: flex;
+	display: -webkit-flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
